@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Overpass&family=Roboto&display=swap');
+
+
+  @media (max-width: 540px) {
+    /* Pour un écran < 540px, cette classe CSS s'applique */
+    .container {
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* Pour un écran < 720px, cette classe CSS s'applique */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 960px) {
+    /* Pour un écran < 960px, cette classe CSS s'applique */
+    .container {
+      width: 700px;
+    }
+  }
+  
+body {
+  background-color: #FFF7F1;
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: Chivo;
+  color:#1A48E3;
+}
+
+h2 {
+  font-family: Chivo;
+  font-size: 28px;
+  color:#1A48E3;
+  margin: 0px auto;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+/* .img-circle { */
+  /* border-radius: 30%;
+} */
+
+.container {
+  text-align: center;
+  width: 400px;
+  margin: 40px auto;
+}
+
+.card-white {
+  /* background-color: white; */
+  padding: 40px;
+ /*  box-shadow: 0px 10px 30px rgba(0,0,0,0.1); */
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 32px;
+    margin-top: 5px;
+    letter-spacing: 10px;
+  }
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+#footer {
+  background-image: url(images/southpark1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  text-align: center;
+  width: 592px;
+  height: 234px;
+  margin: 0px auto;
+
+  }
+
+#footer li {
+  display: inline-block;
+}
